@@ -84,17 +84,54 @@
 # 7.	Write a program to find the sum of all the odd numbers for a given limit
 # a.	Program should accept an input as limit from the user and display the sum of all the odd numbers within that limit
 
-limit = int(input('Enter a limit: '))
+# limit = int(input('Enter a limit: '))
 
-num = range(1, limit+1)
-odd_num = []
-sum = 0
+# num = range(1, limit+1)
+# odd_num = []
+# sum = 0
 
-for n in num:
-    if n%2 !=0:
-        odd_num.append(n)
-        sum += n
+# for n in num:
+#     if n%2 !=0:
+#         odd_num.append(n)
+#         sum += n
 
-print(odd_num)
-print(sum)
+# print(odd_num)
+# print(f"Sum of odd numbers: {sum}")
     
+
+# 8.	Write a program to print the following pattern (hint: use nested loop)
+
+# row = 5
+
+# for r in range(1, row+1):
+#     for c in range(1, r+1):
+#         print(c, end=' ')
+#     print()
+
+
+# 9.	Write a program to interchange the values of two arrays.
+# a.	Program should accept an array from the user, swap the values of two arrays and display it on the console
+
+size = int(input('Enter the size of array: '))
+arr1 = []
+arr2 = []
+
+for num in range(size):
+    if num <= size:
+        number = int(input('Enter a number to array 1 : '))
+        arr1.append(number)
+
+for num in range(size):
+    if num <= size:
+        numberr = int(input('Enter a number to array 2 : '))
+        arr2.append(numberr)
+
+print(f"Array 1: {arr1}")
+print(f"Array 2: {arr2}")
+# arr1 = [5, 10, 15, 20, 25]
+# arr2 = [3,6,9,12,15]
+
+arr1, arr2 = arr2, arr1
+print('INTERCHANGED:')
+print(f"Array 1: {arr1}")
+print(f"Array 2: {arr2}")
