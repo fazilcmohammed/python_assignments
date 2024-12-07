@@ -19,9 +19,29 @@
 #     their mark (pass mark for a subject is 50 out of 100).
 #     b. Program should accept an input from the user and output a message as “Passed” or “Failed”
 
-mark = int(input('Pls enter your score: '))
+# mark = int(input('Pls enter your score: '))
 
-if mark >= 50:
-    print("Congrates, you passed!")
+# if mark >= 50:
+#     print("Congrates, you passed!")
+# else:
+#     print('Sorry, you failed.')
+
+# 4.  Write a program to show the grade obtained by a student after he/she enters their total mark
+#     percentage.
+#     b. Program should accept an input from the user and display their grade as follows
+
+percentage = int(input('Enter your total mark percentage: '))
+
+if percentage >= 90:
+    grade = "A"
+elif percentage >= 80:
+    grade = "B"
+elif percentage >= 70:
+    grade = "C"
+elif percentage >= 60:
+    grade = "D"
 else:
-    print('Sorry, you failed.')
+    grade = "F"
+
+# Display the grade
+print(f"Your grade is: {grade}")
