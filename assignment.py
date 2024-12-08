@@ -176,7 +176,35 @@
 # a.	A string is a palindrome if it reads the same backward or forward eg: MALAYALAM
 # Program should accept a string and display whether the string is a palindrome or not
 
-word = input('Enter a word: ')
-print(word.upper())
-print(word.upper())
+# word = input('Enter a word: ')
+# forward = word.upper()
+# reverse = word[::-1]
+# backward = reverse.upper()
 
+
+# if forward == backward:
+#     print(f"{forward} is a palindrome")
+# else:
+#     print(f"{forward} is not a palindrome")
+
+
+# 13. Write a program to accept an array and display it on the console using functions
+# a.	Program should contain 3 functions including main() function
+
+# arr1 = []
+
+# def getArray():
+#     limit = int(input('Enter the array limit: '))
+#     for i in range(limit):
+#         num = int(input('Enter number: '))
+#         arr1.append(num)
+
+# def displayArray():
+#     print(arr1)
+
+
+# def main():
+#     getArray()
+#     displayArray()
+
+# displayArray()
