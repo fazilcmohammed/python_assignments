@@ -257,3 +257,15 @@ match usr:
         substraction(num1, num2)
     case 4:
         division(num1, num2)
+
+# 16.	Write a program to print the following pattern using for loop
+
+
+row = 4
+num = 1
+
+for r in range(1,row+1):
+    for i in range(1, r+1):
+        print(num, end=' ')
+        num += 1
+    print()
