@@ -112,26 +112,71 @@
 # 9.	Write a program to interchange the values of two arrays.
 # a.	Program should accept an array from the user, swap the values of two arrays and display it on the console
 
-size = int(input('Enter the size of array: '))
-arr1 = []
-arr2 = []
+# size = int(input('Enter the size of array: '))
+# arr1 = []
+# arr2 = []
 
-for num in range(size):
-    if num <= size:
-        number = int(input('Enter a number to array 1 : '))
-        arr1.append(number)
+# for num in range(size):
+#     if num <= size:
+#         number = int(input('Enter a number to array 1 : '))
+#         arr1.append(number)
 
-for num in range(size):
-    if num <= size:
-        numberr = int(input('Enter a number to array 2 : '))
-        arr2.append(numberr)
+# for num in range(size):
+#     if num <= size:
+#         numberr = int(input('Enter a number to array 2 : '))
+#         arr2.append(numberr)
 
-print(f"Array 1: {arr1}")
-print(f"Array 2: {arr2}")
-# arr1 = [5, 10, 15, 20, 25]
-# arr2 = [3,6,9,12,15]
+# print(f"Array 1: {arr1}")
+# print(f"Array 2: {arr2}")
+# # arr1 = [5, 10, 15, 20, 25]
+# # arr2 = [3,6,9,12,15]
 
-arr1, arr2 = arr2, arr1
-print('INTERCHANGED:')
-print(f"Array 1: {arr1}")
-print(f"Array 2: {arr2}")
+# arr1, arr2 = arr2, arr1
+# print('INTERCHANGED:')
+# print(f"Array 1: {arr1}")
+# print(f"Array 2: {arr2}")
+
+
+# 10. Write a program to find the number of even numbers in an array
+# a.	Program should accept an array and display the number of even numbers contained in that array
+
+
+# size = int(input('Enter the size of array: '))
+# arr = []
+
+# for i in range(size):
+#     num = int(input('Enter a number: '))
+#     arr.append(num)
+# print(arr)
+
+# count = 0
+
+# for n in arr:
+#     if n%2==0:
+#         count += 1
+# print(f"Number of even numbers in the given array is {count}")
+
+
+# 11.	 Write a program to sort an array in descending order
+# a.	Program should accept and array, sort the array values in descending order and display it
+
+# size = int(input('Enter the size of array: '))
+# arr = []
+
+# for i in range(size):
+#     num = int(input('Enter a number: '))
+#     arr.append(num)
+# print(arr)
+
+# arr.sort(reverse=True)
+# print(f"Sorted array: {arr}")
+
+
+# 12.	Write a program to identify whether a string is a palindrome or not
+# a.	A string is a palindrome if it reads the same backward or forward eg: MALAYALAM
+# Program should accept a string and display whether the string is a palindrome or not
+
+word = input('Enter a word: ')
+print(word.upper())
+print(word.upper())
+
