@@ -208,3 +208,52 @@
 #     displayArray()
 
 # displayArray()
+
+
+
+# 14.	Write a java program to check whether a given number is prime or not
+# a.	Program should accept an input from the user and display whether the number is prime or not
+
+# num = int(input('Enter a number: '))
+
+# if num>1:
+#     for i in range(2, (num//2)+1):
+#         if num%2 == 0:
+#             print(f"{num} is not a prime number")
+#             break
+#     else:
+#         print(f"{num} is a prime number.")
+# else:
+#     print(f"{num} is not a prime number")
+
+
+# 15. Write a menu driven java program to do the basic mathematical operations such as addition, subtraction, multiplication and division (hint: use if else ladder or switch)
+# a.	Program should have 4 functions named addition(), subtraction(), multiplication() and division()
+# b.	Should create a class object and call the appropriate function as user prefers in the main function
+
+
+def multiplication(num1, num2):
+    print( num1 * num2)
+
+def addition(num1, num2):
+    print( num1 + num2)
+
+def substraction(num1, num2):
+    print( num1 - num2)
+
+def division(num1, num2):
+    print( num2/num1)
+
+usr = int(input('choose an operation: \n 1 - Multiplication \n 2 - Addition \n 3 - Substraction \n 4 - Division \n'))
+num1 = int(input('Enter a number: '))
+num2 = int(input('Enter another number: '))
+
+match usr:
+    case 1:
+        multiplication(num1, num2)
+    case 2:
+        addition(num1, num2)
+    case 3:
+        substraction(num1, num2)
+    case 4:
+        division(num1, num2)
